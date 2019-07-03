@@ -23,6 +23,7 @@
   padding: 0;
   margin: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 body, html {
@@ -48,15 +49,12 @@ a {
 .fd-nav__title {
   font-size: 1.8rem;
   flex: 1;
-  
   padding: .2em 1em;
 }
 
 .fd-nav__links {
   display: flex;
-  
   flex: 1;
-  
 }
 
 .fd-nav__links__link {
